@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{788988E9-88C6-4A1E-9734-068595729750}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentAssertions", "FluentAssertions", "{8602F80C-2C9D-4976-80F2-0BF01440B362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF.Blog.FluentAssertionsTests", "FluentAssertions\SF.Blog.FluentAssertionsTests\SF.Blog.FluentAssertionsTests.csproj", "{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D} = {8602F80C-2C9D-4976-80F2-0BF01440B362}
+	EndGlobalSection
+EndGlobal
