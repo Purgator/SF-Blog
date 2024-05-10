@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentAssertions", "FluentA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF.Blog.FluentAssertionsTests", "FluentAssertions\SF.Blog.FluentAssertionsTests\SF.Blog.FluentAssertionsTests.csproj", "{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeProvider", "TimeProvider", "{018A24CF-6A05-4343-8AFF-9FF9418EABBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF.Blog.TimeProvider.Tests", "TimeProvider\SF.Blog.TimeProvider.Tests\SF.Blog.TimeProvider.Tests.csproj", "{CB22547B-55D2-43CC-B6BC-2B1F6D54876C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,13 @@ Global
 		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB22547B-55D2-43CC-B6BC-2B1F6D54876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB22547B-55D2-43CC-B6BC-2B1F6D54876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB22547B-55D2-43CC-B6BC-2B1F6D54876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB22547B-55D2-43CC-B6BC-2B1F6D54876C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{248C4C05-745A-4BE5-A0B9-BB26C5B0806D} = {8602F80C-2C9D-4976-80F2-0BF01440B362}
+		{CB22547B-55D2-43CC-B6BC-2B1F6D54876C} = {018A24CF-6A05-4343-8AFF-9FF9418EABBB}
 	EndGlobalSection
 EndGlobal
